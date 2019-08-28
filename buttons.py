@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+# https://pythonspot.com/pyqt5-buttons/
+
 import sys
 from PyQt5.QtWidgets import QApplication, QWidget, QPushButton
 from PyQt5.QtGui import QIcon
