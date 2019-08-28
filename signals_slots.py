@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+# https://pythonspot.com/pyqt5-signals-and-slots/
+
 from PyQt5.QtWidgets import (QApplication, QComboBox, QDialog, QDialogButtonBox, QFormLayout, QGridLayout, QGroupBox, QHBoxLayout, QLabel, QLineEdit, QMenu, QMenuBar, QPushButton, QSpinBox, QTextEdit, QVBoxLayout)
 
 import sys
