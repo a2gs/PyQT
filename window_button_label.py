@@ -3,6 +3,7 @@
 
 import sys
 from PyQt5.QtWidgets import QApplication, QMainWindow, QPushButton, QToolTip, QLabel
+from PyQt5.QtCore import pyqtSlot
 
 class myAppWindow(QMainWindow):
 
@@ -42,10 +43,12 @@ class myAppWindow(QMainWindow):
 
 		self.show()
 
+	@pyqtSlot()
 	def botao1_click(self):
 		self.label_1.setStyleSheet('QLabel {font:bold; font-size:15px; color:"red"}')
 		self.label_1.setText("Botao 1!")
 
+	@pyqtSlot()
 	def botao2_click(self):
 		self.label_1.setStyleSheet('QLabel {font:bold; font-size:15px; color:"blue"}')
 		self.label_1.setText("Botao 2!")
