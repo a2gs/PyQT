@@ -10,10 +10,10 @@ class App(QMainWindow):
 
 	def __init__(self):
 		super().__init__()
-		self.title = 'PyQt absolute positioning - pythonspot.com'
-		self.left = 10
-		self.top = 10
-		self.width = 440
+		self.title  = 'PyQt absolute positioning - pythonspot.com'
+		self.left   = 10
+		self.top    = 10
+		self.width  = 440
 		self.height = 280
 		self.initUI()
 
